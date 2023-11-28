@@ -51,7 +51,7 @@ Dockerfile Creation:
 5. Used a non-root user (node) to run the application.
 6. Started the application with the command CMD ["node", "index.js"].
 7. Accessing the Application
-8. Visit http://<your_instance_ip>:3000 in your browser to access the web application.
+8. Visit http://3.7.254.19:3000 in your browser to access the web application.
 
 --> Troubleshooting
 1. If the site can't be reached, check Docker container logs, and security group settings, and verify the application code.
